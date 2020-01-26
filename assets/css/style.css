@@ -1,5 +1,5 @@
 body {
-background-image: url("assets/images/background-image.jpg");
+background-image: url("../assets/images/background-image.jpg");
 }
 
 header {
@@ -107,4 +107,38 @@ footer {
     color: white;
     font-size: x-small;
     border-top: 10px solid #EEBEC1;
+}
+
+.portfolioimages {
+    
+}
+
+.portfolio {
+    width: 960px;
+    border: 2px #aaaaaa solid;
+    margin: 30px auto 60px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.755branding {
+    padding: 20px;
+    background: #EEBEC1;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 20px;
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 75%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    background-color: #eebec1;
 }
