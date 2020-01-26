@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(240, 240, 240);
+background-image: url("assets/images/background-image.jpg");
 }
 
 header {
@@ -19,7 +19,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 20px;
-    color: teal;
+    color: #EEBEC1;
 }
 
 .header {
@@ -49,14 +49,14 @@ h2 {
 
 .ashley {
     padding: 20px;
-    background-color: teal;
+    background-color: #EEBEC1;
     width: 200px;
     text-align: center;
     float: left;
 }
 
 .yourname {
-    background-color: teal;
+    background-color: #EEBEC1;
     width: 200px;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -73,6 +73,14 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: small;
+}
+
+.contact {
+    width: 960px;
+    border: 2px #aaaaaa solid;
+    margin: 30px auto 60px auto;
+    padding: 20px;
+    background-color: #fff;
 }
 
 .aboutme {
@@ -98,5 +106,5 @@ footer {
     text-align: center;
     color: white;
     font-size: x-small;
-    border-top: 10px solid teal;
+    border-top: 10px solid #EEBEC1;
 }
